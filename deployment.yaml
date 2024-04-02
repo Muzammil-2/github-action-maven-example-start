@@ -10,7 +10,7 @@ spec:
     nodePort: 30000   # Port accessible externally on each node
   selector:
     app: example-app  # Select pods with this label
-----
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
